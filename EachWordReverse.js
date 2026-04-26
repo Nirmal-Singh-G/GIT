@@ -12,8 +12,16 @@ let count = 0;
 
 for (let c of str) {
     if (c === char) {
+
         count++;
     }
 }
 
 console.log(count);
+
+let str = "JavaScript";
+let count = 0;
+
+for (let char of str.toLowerCase()) {
+    if ("aeiou".includes(char)) {
+    }}
