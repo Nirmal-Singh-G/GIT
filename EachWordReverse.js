@@ -6,13 +6,22 @@ let result = sentence
 
 console.log(result);
 //
-let str = "JavaScript";
+let str = "javascript";
+let char = "a";
 let count = 0;
 
-for (let char of str.toLowerCase()) {
-    if ("aeiou".includes(char)) {
+for (let c of str) {
+    if (c === char) {
+
         count++;
     }
 }
 
 console.log(count);
+
+let str = "JavaScript";
+let count = 0;
+
+for (let char of str.toLowerCase()) {
+    if ("aeiou".includes(char)) {
+    }}
