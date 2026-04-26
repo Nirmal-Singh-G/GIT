@@ -5,3 +5,15 @@ let result = sentence
   .join(' ');
 
 console.log(result);
+//
+let str = "javascript";
+let char = "a";
+let count = 0;
+
+for (let c of str) {
+    if (c === char) {
+        count++;
+    }
+}
+
+console.log(count);
